@@ -34,3 +34,12 @@ class player(GameSprite):
 
 
 #game scene:
+back = (200, 255, 255) #background color (background)
+win_width = 600
+win_hieght = 500
+window = display.set_mode((win_width, win_hieght))
+window.fill(back)
+
+
+#flags responsible for game state
+game = True
